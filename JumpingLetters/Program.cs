@@ -11,7 +11,7 @@ namespace JumpingLetters
     {
         static void Main(string[] args)
         {
-            var strLine = "Hello,World!!! C# Conio Example!!!";
+            var strLine = "Hello World!!! Jumping Letters!!! Press Any Key To Exit!!!";
             var nLen = strLine.Length;
             Console.Clear();
             Console.CursorVisible = false;
@@ -26,8 +26,6 @@ namespace JumpingLetters
             }
             Console.SetCursorPosition(10, 10);
             Console.Write(strLine);
-            Console.SetCursorPosition(10, 11);
-            Console.Write("Press any key");
             Console.ReadKey();
         }
     }
